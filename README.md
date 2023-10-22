@@ -1,8 +1,17 @@
-# Pi Dashboard
-A WebUI dashboard for IoT devices likes raspberry pi.
+Pi Dashboard (Pi 仪表盘) 是一个开源的 IoT 设备监控工具，目前主要针对树莓派平台，也尽可能兼容其他类树莓派硬件产品。你只需要在树莓派上安装好 PHP 服务器环境，即可方便的部署一个 Pi 仪表盘，通过炫酷的 WebUI 来监控树莓派的状态！
 
-Project details: (https://make.quwj.com/project/10)
+目前已加入的监测项目有：
 
-Copyright 2017-2020 NXEZ.com.
+CPU 基本信息、状态和使用率等实时数据
 
-Licensed under the GPL v3.0 license.
+内存、缓存、SWAP分区使用的实时数据
+
+SD卡（磁盘）的占用情况
+
+实时负载数据
+
+实施进程数据
+
+网络接口的实时数据
+
+树莓派IP、运行时间、操作系统、HOST 等基础信息
